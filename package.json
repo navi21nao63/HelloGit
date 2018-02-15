@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	 "start": "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/navi21nao63/HelloGit/issues"
   },
-  "homepage": "https://github.com/navi21nao63/HelloGit#readme"
+  "homepage": "https://github.com/navi21nao63/HelloGit#readme",
+  "dependencies": {
+    "csv-lite": "0.0.81",
+    "graceful-fs": "^4.1.11"
+  }
 }
